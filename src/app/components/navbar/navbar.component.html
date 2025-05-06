@@ -1,0 +1,11 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-success px-4">
+  <a class="navbar-brand" href="/"><img src="assets/logo.png" >
+    Gabriel Alves</a>
+  <div class="collapse navbar-collapse">
+    <ul class="navbar-nav ms-auto">
+      <li class="nav-item" *ngFor="let link of links">
+        <a class="nav-link" [routerLink]="link.url">{{ link.label }}</a>
+      </li>
+    </ul>
+  </div>
+</nav>
