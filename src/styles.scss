@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+
+:root {
+  /* Cores principais */
+  --color-background: #0f0f0f;
+  --color-green-dark: #2e7d32;
+  --color-green-light: #66bb6a;
+  
+  /* Texto */
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #bdbdbd;
+
+  /* Links e botões */
+  --color-link-hover: #66bb6a;
+  --color-border: #2e7d32;
+
+  --fonte-inicio: 'Modak', cursive;
+}
+
+body {
+  background-color: var(--color-background) !important;
+  color: var(--color-text-secondary) !important;
+}

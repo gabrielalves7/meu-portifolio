@@ -1,0 +1,31 @@
+.custom-navbar .nav-link {
+  color: var(--color-text-primary);
+}
+
+.custom-navbar .nav-link:hover,
+.custom-navbar .nav-link.active {
+  color: var(--color-link-hover);
+  border-bottom: 3px solid var(--color-link-hover);
+}
+
+.navbar-brand {
+  color: var(--color-green-dark);
+  margin-left: 70px;
+}
+
+ul {
+  margin-right: 100px;
+  gap: 30px;
+}
+
+.inicio{
+  font-family: var(--fonte-inicio);
+}
+
+.nome-branco {
+  color: white;
+}
+
+.nome-verde {
+  color: var(--color-green-dark);
+}

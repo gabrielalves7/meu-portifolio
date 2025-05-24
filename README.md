@@ -1,27 +1,67 @@
-# PortifolioAngularBootstrap
+# 🎯 Projeto Portfólio - Gabriel Alves
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.3.
+> Aplicação desenvolvida com Angular e Bootstrap como parte do meu portfólio profissional.
 
-## Development server
+Este projeto é uma demonstração das minhas habilidades com **Angular** e **Bootstrap**, focando em uma interface responsiva e limpa para apresentação de projetos e informações profissionais.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+---
 
-## Code scaffolding
+## 🧑‍💻 Sobre Mim
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Olá! Me chamo **Gabriel Alves**, tenho 24 anos e sou **Desenvolvedor Full Stack** com experiência nas seguintes tecnologias:
 
-## Build
+- Angular & TypeScript
+- .NET C# com Entity Framework
+- MySQL
+- Bootstrap
+- HTML5 / CSS3 / Javascript
+- Git & GitHub
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+🎓 Formado em **Sistemas de Informação**  
+🎓 Pós-graduado em **Inteligência Artificial e Machine Learning**
 
-## Running unit tests
+---
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 🚀 Funcionalidades
 
-## Running end-to-end tests
+- ✅ Layout totalmente responsivo com Bootstrap
+- ✅ Apresentação dos meus projetos e habilidades
+- ✅ Navegação simples e intuitiva
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+---
 
-## Further help
+## 🔧 Tecnologias utilizadas
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- [Angular](https://angular.io/)
+- [Bootstrap](https://getbootstrap.com/)
+- HTML, SCSS, TypeScript
+
+---
+
+## 📂 Como executar
+
+```bash
+# Clone este repositório
+git clone https://github.com/gabrielalves7/meu-portifolio.git
+
+# Acesse a pasta do projeto
+cd meu-portifolio
+
+# Instale as dependências
+npm install
+
+# Execute a aplicação
+ng serve
+
+---
+
+## 📬 Contact
+Feel free to reach out:
+
+📧 Email: gabrielalvesfg@hotmail.com
+
+🔗 LinkedIn: linkedin.com/in/gabriel-asilva
+
+🐙 GitHub: github.com/gabrielalves7
+
+```
