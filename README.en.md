@@ -50,3 +50,16 @@ npm install
 
 # Run the application
 ng serve
+
+---
+
+## 📬 Contact
+Feel free to reach out:
+
+📧 Email: gabrielalvesfg@hotmail.com
+
+🔗 LinkedIn: linkedin.com/in/gabriel-asilva
+
+🐙 GitHub: github.com/gabrielalves7
+
+```
