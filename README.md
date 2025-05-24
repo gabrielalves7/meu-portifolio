@@ -55,8 +55,8 @@ ng serve
 
 ---
 
-## 📬 Contact
-Feel free to reach out:
+## 📬 Contato
+Sinta-se livre para entrar em contato comigo:
 
 📧 Email: gabrielalvesfg@hotmail.com
 
