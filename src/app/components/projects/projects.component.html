@@ -26,7 +26,6 @@
             <li *ngFor="let feature of project.features">{{ feature }}</li>
           </ul>
 
-          <!-- Badges de tecnologias -->
           <div class="mb-2">
             <span
               *ngFor="let tech of project.technologies"
@@ -42,7 +41,6 @@
         </div>
       </div>
 
-      <!-- Modal com carrossel -->
       <div
         class="modal fade"
         [id]="'projectModal' + idx"

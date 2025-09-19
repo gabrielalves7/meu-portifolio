@@ -12,7 +12,7 @@ export interface Email {
   providedIn: 'root'
 })
 export class EmailService {
-  private readonly apiUrl = 'http://localhost:5000/api/email'; // ou https://localhost:5001, se usar HTTPS
+  private readonly apiUrl = 'http://localhost:5000/api/email'; 
 
   constructor(private http: HttpClient) {}
 
