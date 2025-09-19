@@ -1,72 +1,96 @@
 <section class="container py-5">
   <h2>Projetos</h2>
   <div class="row">
-    <div class="col-md-4 mb-4" *ngFor="let project of projects; let idx = index">
+    <div
+      class="col-md-4 mb-4"
+      *ngFor="let project of projects; let idx = index"
+    >
       <div class="card h-100">
+        <!-- Alertas -->
 
-               <img 
-          [src]="project.images[0]" 
-          class="card-img-top" 
+        <img
+          [src]="project.images[0]"
+          class="card-img-top"
           alt="Imagem do projeto"
           style="cursor: pointer"
           data-bs-toggle="modal"
           [attr.data-bs-target]="'#projectModal' + idx"
-        >
+        />
 
         <div class="card-body">
-  <h5 class="card-title">{{ project.title }}</h5>
-  <p class="card-text">{{ project.description }}</p>
+          <h5 class="card-title">{{ project.title }}</h5>
+          <p class="card-text">{{ project.description }}</p>
 
-  <!-- Badges de tecnologias -->
-  <div class="mb-2">
-    <span 
-      *ngFor="let tech of project.technologies" 
-      class="badge rounded-pill bg-secondary me-1"
-    >
-      {{ tech }}
-    </span>
-  </div>
-</div>
+          <!-- Features -->
+          <ul *ngIf="project.features?.length" class="ps-3">
+            <li *ngFor="let feature of project.features">{{ feature }}</li>
+          </ul>
 
+          <!-- Badges de tecnologias -->
+          <div class="mb-2">
+            <span
+              *ngFor="let tech of project.technologies"
+              class="badge rounded-pill me-1 d-inline-flex align-items-center gap-1"
+              [ngStyle]="{
+                'background-color': techStyles[tech]?.bg || '#6c757d',
+                color: techStyles[tech]?.color || '#ffffff'
+              }"
+            >
+              <i [class]="techStyles[tech]?.icon"></i> {{ tech }}
+            </span>
+          </div>
+        </div>
       </div>
 
       <!-- Modal com carrossel -->
-      <div 
-        class="modal fade" 
-        [id]="'projectModal' + idx" 
-        tabindex="-1" 
+      <div
+        class="modal fade"
+        [id]="'projectModal' + idx"
+        tabindex="-1"
         aria-hidden="true"
       >
         <div class="modal-dialog modal-xl modal-dialog-centered">
           <div class="modal-content">
             <div class="modal-header">
               <h5 class="modal-title">{{ project.title }}</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+              ></button>
             </div>
             <div class="modal-body">
-              <div [id]="'carousel' + idx" class="carousel slide" data-bs-ride="carousel">
+              <div
+                [id]="'carousel' + idx"
+                class="carousel slide"
+                data-bs-ride="carousel"
+              >
                 <div class="carousel-inner">
-                  <div 
-                    class="carousel-item" 
-                    *ngFor="let img of project.images; let i = index" 
+                  <div
+                    class="carousel-item"
+                    *ngFor="let img of project.images; let i = index"
                     [class.active]="i === 0"
                   >
-                    <img [src]="img" class="d-block w-100" alt="Imagem detalhada">
+                    <img
+                      [src]="img"
+                      class="d-block w-100"
+                      alt="Imagem detalhada"
+                    />
                   </div>
                 </div>
 
                 <!-- Controles -->
-                <button 
-                  class="carousel-control-prev" 
-                  type="button" 
+                <button
+                  class="carousel-control-prev"
+                  type="button"
                   [attr.data-bs-target]="'#carousel' + idx"
                   data-bs-slide="prev"
                 >
                   <span class="carousel-control-prev-icon"></span>
                 </button>
-                <button 
-                  class="carousel-control-next" 
-                  type="button" 
+                <button
+                  class="carousel-control-next"
+                  type="button"
                   [attr.data-bs-target]="'#carousel' + idx"
                   data-bs-slide="next"
                 >
@@ -77,7 +101,6 @@
           </div>
         </div>
       </div>
-
     </div>
   </div>
 </section>
