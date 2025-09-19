@@ -6,6 +6,10 @@ Este projeto é uma demonstração das minhas habilidades com **Angular** e **Bo
 
 ---
 
+## 💻 Hospedagem
+
+O site está hospedado em: https://gabrielalves-portifolio.netlify.app/
+
 ## 🧑‍💻 Sobre Mim
 
 Olá! Me chamo **Gabriel Alves**, tenho 24 anos e sou **Desenvolvedor Full Stack** com experiência nas seguintes tecnologias:
